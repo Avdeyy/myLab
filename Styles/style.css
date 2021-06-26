@@ -1,0 +1,140 @@
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+	width: 94%;
+	margin: 42px 78px 42px 78px;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+.menu li {
+	width: 30%;
+	margin: 0;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 42px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.02em;
+	margin: 0;
+}
+
+.content{
+	display: block;
+}
+
+.banner-par {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+	font-size: 20px;
+	margin-bottom: 6%;
+	margin-top: 100px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.line {
+	width: 60%;
+	margin-left: 5%;
+	background-color: black;
+	height: 2px;
+}
+
+.content {
+	margin-top: 6%;
+}
+
+.categories {
+	font-family: Calibri;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+	margin: 2% 0 2% 7%;
+}
+
+.categ-container {
+	margin-left: 20%;
+	margin-top: 130px;
+}
+
+.categories a {
+	text-decoration: none;
+	color: black;
+}
+
+.container { 
+	display: flex;
+	margin: 0 3%;
+	margin-bottom: 70px;
+}
+
+.container div {
+	font-size: 15px;
+	color: black;
+	flex: 1;
+}
+
+.first-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.short-line {
+	width: 95%;
+	height: 2px;
+	margin: 2% 0;
+	background-color: black;
+}
+
+.preview-card {
+	display: flex;
+	width: 90%;
+	margin: 15px;
+}
+
+.card-img {
+	width: 260px;
+}
+
+.normal-img img {
+	height: 150px;
+	width: 260px;
+	object-fit: cover;
+}
+
+.square-img img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+.name {
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.info-p {
+	margin: 0 0 40px 0;
+	font-size: 15px;
+}
+
+.surnames {
+	margin: 0;
+	font-size: 15px;
+}
